@@ -36,7 +36,7 @@
     "skipLibCheck": true,
 
     // Compatibility for require-style imports
-    "esModuleInterop": false,
+    "esModuleInterop": true, // ✅ Corrigido para permitir importações como readline-sync
     "verbatimModuleSyntax": false
   }
 }
